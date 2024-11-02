@@ -85,6 +85,9 @@ gcloud beta run deploy ollama-gemma \
   --service-account $OLLAMA_IDENTITY@$PROJECT_ID.iam.gserviceaccount.com \
   --timeout=600
 
+  
+```
+
 Line-001
 
 <div style="background-color: #ffff00; padding: 10px; border-radius: 5px;">
@@ -93,9 +96,6 @@ Line-001
 
 Line-003
 
-
-  
-```
 
 ## Step 8: Invoke the Local Gemma Cloud Run Service with GPU 
 ```bash
