@@ -122,5 +122,41 @@ gcloud iam service-accounts delete $OLLAMA_IDENTITY@$PROJECT_ID.iam.gserviceacco
 ```
 
 
+
+```bash
+gcloud beta run deploy ollama-gemma \
+  --image us-central1-docker.pkg.dev/$PROJECT_ID/$REPOSITORY/ollama-gemma \
+  --concurrency 4 \
+  --cpu 8 \
+  --set-env-vars OLLAMA_NUM_PARALLEL=4 \
+  **--gpu 1**  **--gpu-type nvidia-l4**  <-- Highlight these lines
+  --max-instances 7 \
+  --memory 32Gi \
+  --allow-unauthenticated \
+  --no-cpu-throttling \
+  --service-account $OLLAMA_IDENTITY@$PROJECT_ID.iam.gserviceaccount.com \
+  --timeout=600
+
+```
+
+
+
+gcloud beta run deploy ollama-gemma 
+--image us-central1-docker.pkg.dev/$PROJECT_ID/$REPOSITORY/ollama-gemma 
+--concurrency 4 
+--cpu 8 
+--set-env-vars OLLAMA_NUM_PARALLEL=4 
+<span style="background-color: #ffff00; font-weight: bold;">  --gpu 1  </span>  <span style="background-color: #ffff00; font-weight: bold;">--gpu-type nvidia-l4</span>
+--max-instances 7 
+--memory 32Gi 
+--allow-unauthenticated 
+--no-cpu-throttling 
+--service-account $OLLAMA_IDENTITY@$PROJECT_ID.iam.gserviceaccount.com 
+--timeout=600
+
+
+
+
+
    
 
