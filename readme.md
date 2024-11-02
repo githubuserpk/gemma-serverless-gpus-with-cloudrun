@@ -2,8 +2,9 @@
 
 ## Step 0: Pre-requisites 
 
-Submit GPU Preview Form ( ETA: 1 day) for approval 
-https://services.google.com/fb/forms/cloudrungpusignup/
+Cloud Run GPU sign up ( ETA: 1 day) for Approval 
+[Cloud Run GPU sign up](https://services.google.com/fb/forms/cloudrungpusignup/)
+
 
 
 ## Step 1: Enable APIs, set variables: project and region, Roles
