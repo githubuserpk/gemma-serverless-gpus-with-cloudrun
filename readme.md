@@ -89,6 +89,26 @@ gcloud beta run deploy ollama-gemma \
 ```
 
 
+> **Note:** Pay special attention to the GPU configuration (`--gpu 1` and `--gpu-type nvidia-l4`) in the following command.
+
+```bash
+gcloud beta run deploy ollama-gemma \
+  --image us-central1-docker.pkg.dev/$PROJECT_ID/$REPOSITORY/ollama-gemma \
+  --concurrency 4 \
+  --cpu 8 \
+  --set-env-vars OLLAMA_NUM_PARALLEL=4 \
+  --gpu 1 \
+  --gpu-type nvidia-l4 \
+  --max-instances 7 \
+  --memory 32Gi \
+  --allow-unauthenticated \
+  --no-cpu-throttling \
+  --service-account $OLLAMA_IDENTITY@$PROJECT_ID.iam.gserviceaccount.com \
+  --timeout=600
+
+
+
+
 
 
 ## Step 8: Invoke the Local Gemma Cloud Run Service with GPU 
