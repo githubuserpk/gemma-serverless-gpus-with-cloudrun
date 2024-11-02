@@ -76,8 +76,8 @@ gcloud beta run deploy ollama-gemma \
   --concurrency 4 \
   --cpu 8 \
   --set-env-vars OLLAMA_NUM_PARALLEL=4 \
-  **--gpu 1 \
-  --gpu-type nvidia-l4 **\
+  <strong>--gpu 1 \
+  --gpu-type nvidia-l4</strong> \
   --max-instances 7 \
   --memory 32Gi \
   --allow-unauthenticated \
