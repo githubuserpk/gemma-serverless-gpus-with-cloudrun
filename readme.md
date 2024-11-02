@@ -70,24 +70,6 @@ gcloud iam service-accounts create $OLLAMA_IDENTITY \
 
 ## Step 7: Deploy image to Cloud Run  
 
-```bash
-gcloud beta run deploy ollama-gemma \
-  --image us-central1-docker.pkg.dev/$PROJECT_ID/$REPOSITORY/ollama-gemma \
-  --concurrency 4 \
-  --cpu 8 \
-  --set-env-vars OLLAMA_NUM_PARALLEL=4 \
-  <strong>--gpu 1 \
-  --gpu-type nvidia-l4</strong> \
-  --max-instances 7 \
-  --memory 32Gi \
-  --allow-unauthenticated \
-  --no-cpu-throttling \
-  --service-account $OLLAMA_IDENTITY@$PROJECT_ID.iam.gserviceaccount.com \
-  --timeout=600
-
-  
-```
-
 
 > **Note:** Pay special attention to the GPU configuration (`--gpu 1` and `--gpu-type nvidia-l4`) in the following command.
 
@@ -106,7 +88,7 @@ gcloud beta run deploy ollama-gemma \
   --service-account $OLLAMA_IDENTITY@$PROJECT_ID.iam.gserviceaccount.com \
   --timeout=600
 
-
+```
 
 
 
