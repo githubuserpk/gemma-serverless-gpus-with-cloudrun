@@ -76,8 +76,8 @@ gcloud beta run deploy ollama-gemma \
   --concurrency 4 \
   --cpu 8 \
   --set-env-vars OLLAMA_NUM_PARALLEL=4 \
-  --gpu 1 \
-  --gpu-type nvidia-l4 \
+  **--gpu 1 \
+  --gpu-type nvidia-l4 **\
   --max-instances 7 \
   --memory 32Gi \
   --allow-unauthenticated \
@@ -88,13 +88,7 @@ gcloud beta run deploy ollama-gemma \
   
 ```
 
-Line-001
 
-<div style="background-color: #ffff00; padding: 10px; border-radius: 5px;">
-  <h2 style="margin: 0;">**Line-002**</h2>
-</div>
-
-Line-003
 
 
 ## Step 8: Invoke the Local Gemma Cloud Run Service with GPU 
@@ -125,24 +119,6 @@ gcloud iam service-accounts delete $OLLAMA_IDENTITY@$PROJECT_ID.iam.gserviceacco
 
 ```
 
-
-
-# ⚠️ Important GPU Configuration ⚠️
-
-```bash
-gcloud beta run deploy ollama-gemma \
-  --image us-central1-docker.pkg.dev/$PROJECT_ID/$REPOSITORY/ollama-gemma \
-  --concurrency 4 \
-  --cpu 8 \
-  --set-env-vars OLLAMA_NUM_PARALLEL=4 \
-  --gpu 1 \
-  --gpu-type nvidia-l4 \
-  --max-instances 7 \
-  --memory 32Gi \
-  --allow-unauthenticated \
-  --no-cpu-throttling \
-  --service-account $OLLAMA_IDENTITY@$PROJECT_ID.iam.gserviceaccount.com \
-  --timeout=600
 
    
 
