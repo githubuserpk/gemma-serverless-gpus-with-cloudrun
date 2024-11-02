@@ -10,6 +10,8 @@ Submit your project details to Google to get GPU quota ( ETA: 1 day) for Approva
 ## Step 1: Enable APIs, set variables: project and region, Roles
 
 ```bash
+##Enable the Google APIs: cloud run, cloud build and artifact registry
+
 gcloud services enable \
     run.googleapis.com \
     cloudbuild.googleapis.com \
