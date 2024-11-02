@@ -83,7 +83,7 @@ gcloud beta run deploy ollama-gemma \
   --gpu-type nvidia-l4 \
   --max-instances 7 \
   --memory 32Gi \
-  --allow-unauthenticated \
+  --no-allow-unauthenticated \
   --no-cpu-throttling \
   --service-account $OLLAMA_IDENTITY@$PROJECT_ID.iam.gserviceaccount.com \
   --timeout=600
