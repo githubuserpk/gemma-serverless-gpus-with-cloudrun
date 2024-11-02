@@ -23,6 +23,8 @@ Check out [Google Documentation](https://cloud.google.com/run/docs/tutorials/gpu
 
 
 ## Step 3: Set Environment Variables project id region etc 
+
+```bash
 export PROJECT_ID=kp-devops
 export PROJECT=kp-devops
 export LOCATION us-central1
