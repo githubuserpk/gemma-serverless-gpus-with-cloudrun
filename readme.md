@@ -1,5 +1,3 @@
-# Serverless GPUs with Cloud Run
-
 ![Architecture Diagram](serverless-gpus-with-cloud-run.jpg)
 
 
