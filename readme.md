@@ -14,7 +14,7 @@ gcloud services enable \
     run.googleapis.com \
     cloudbuild.googleapis.com \
     artifactregistry.googleapis.com
-
+```
 
 
 ## Step 2: Assign required IAM Roles 
@@ -37,5 +37,6 @@ export SERVICE=ollama-gemma
 gcloud config set project $PROJECT
 gcloud config set run/region $REGION
 
+```
 
 
