@@ -2,7 +2,7 @@
 
 ## Step 0: Pre-requisites 
 
-Cloud Run GPU sign up ( ETA: 1 day) for Approval 
+Submit your project details to Google to get GPU quota ( ETA: 1 day) for Approval 
 [Cloud Run GPU sign up](https://services.google.com/fb/forms/cloudrungpusignup/)
 
 
