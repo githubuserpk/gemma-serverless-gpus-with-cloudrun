@@ -5,7 +5,9 @@ Refer below to the high level architecture
 
 
 
-The detailed architecture diagram below outlines the detailed steps  to run this sample. 
+## Detailed Architecutre and Steps  
+
+The detailed architecture diagram below outlines the detailed steps to run this sample. 
 ![Detailed Architecture Diagram](detailed-architecture.jpg)
 
 
