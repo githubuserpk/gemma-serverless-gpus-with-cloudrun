@@ -16,6 +16,9 @@ The detailed architecture diagram below outlines the detailed steps to run this 
 Submit your project details to Google to get GPU quota ( ETA: 1 day) for Approval 
 [Cloud Run GPU sign up](https://services.google.com/fb/forms/cloudrungpusignup/)
 
+Once approved, you will receive an email response as shown below: 
+
+![GPU Approval Response](detailed-architecture.jpg)
 
 
 ## Step 1: Enable APIs, set variables: project and region, Roles
@@ -132,6 +135,11 @@ gcloud iam service-accounts delete $OLLAMA_IDENTITY@$PROJECT_ID.iam.gserviceacco
 
 ```
 
+
+## References
+
+Blog Link: https://cloud.google.com/blog/products/application-development/run-your-ai-inference-applications-on-cloud-run-with-nvidia-gpus
+Google Documentation: https://cloud.google.com/run/docs/tutorials/gpu-gemma2-with-ollama
 
 
 
