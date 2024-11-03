@@ -44,14 +44,15 @@ Check out [Google Documentation](https://cloud.google.com/run/docs/tutorials/gpu
 ```bash
 export PROJECT_ID=kp-devops
 export PROJECT=kp-devops
-export LOCATION us-central1
-export REGION us-central1
+export LOCATION=us-central1
+export REGION=us-central1
 export REPOSITORY=ollama-repo
 export OLLAMA_IDENTITY=ollama-sa
 export SERVICE=ollama-gemma
 
+
 gcloud config set project $PROJECT
-gcloud config set region $REGION
+gcloud config set compute/region $REGION
 
 ```
 
