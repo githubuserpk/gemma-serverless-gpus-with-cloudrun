@@ -1,12 +1,12 @@
 # Overview
 Serverless GPUs is a brand new feature in Cloud Run.  This sample shows how to run the Gemma2 open model in a container on serverless GPU.  The GPU we use here is the Nvidia L4 GPU.  It is orchestrated through the Ollama Inference Engine everthing running inside a cloud run container !!! 
 Refer below to the high level architecture
-![Architecture Diagram](high-level-architecture.jpg)
+![Architecture Diagram - High Level](high-level-architecture.jpg)
 
 
 The detailed architecture diagram below outlines the detailed steps  to run this sample. 
 
-![Architecture Diagram](detailed-architecture.jpg)
+![Architecture Diagram - Detailed ](detailed-architecture.jpg)
 
 ## Step 0: Pre-requisites 
 
