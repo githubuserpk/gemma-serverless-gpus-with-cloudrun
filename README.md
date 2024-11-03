@@ -18,7 +18,7 @@ Submit your project details to Google to get GPU quota ( ETA: 1 day) for Approva
 
 Once approved, you will receive an email response as shown below: 
 
-![GPU Approval Response](detailed-architecture.jpg)
+![GPU Approval Response](GPU-approval.jpg)
 
 
 ## Step 1: Enable APIs, set variables: project and region, Roles
