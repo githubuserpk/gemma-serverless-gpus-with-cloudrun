@@ -4,8 +4,9 @@ Refer below to the high level architecture
 ![Architecture Diagram - High Level](high-level-architecture.jpg)
 
 
+
 The detailed architecture diagram below outlines the detailed steps  to run this sample. 
-![Architecture Diagram - Detailed ](detailed-architecture.jpg)
+![Architecture Diagram - Detailed](detailed-architecture.jpg)
 
 
 ## Step 0: Pre-requisites 
