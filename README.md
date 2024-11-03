@@ -11,7 +11,7 @@ The detailed architecture diagram below outlines the detailed steps to run this 
 ![Detailed Architecture Diagram](detailed-architecture.jpg)
 
 
-## Step 0: Pre-requisites 
+## Step 0: Pre-requisites, Submit GPU Quota Request
 
 Submit your project details to Google to get GPU quota ( ETA: 1 day) for Approval 
 [Cloud Run GPU sign up](https://services.google.com/fb/forms/cloudrungpusignup/)
