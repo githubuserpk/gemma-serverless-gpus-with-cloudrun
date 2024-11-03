@@ -51,7 +51,7 @@ export OLLAMA_IDENTITY=ollama-sa
 export SERVICE=ollama-gemma
 
 gcloud config set project $PROJECT
-gcloud config set run/region $REGION
+gcloud config set region $REGION
 
 ```
 
