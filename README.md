@@ -138,15 +138,10 @@ gcloud iam service-accounts delete $OLLAMA_IDENTITY@$PROJECT_ID.iam.gserviceacco
 
 
 ## References
-```bash
-Blog Link: https://cloud.google.com/blog/products/application-development/run-your-ai-inference-applications-on-cloud-run-with-nvidia-gpus
-Google Documentation: https://cloud.google.com/run/docs/tutorials/gpu-gemma2-with-ollama
-
-
 
 [Blog Link](https://cloud.google.com/blog/products/application-development/run-your-ai-inference-applications-on-cloud-run-with-nvidia-gpus)
 
 [Google Documentation](https://cloud.google.com/run/docs/tutorials/gpu-gemma2-with-ollama)
 
-```
+
 
